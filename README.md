@@ -6,7 +6,7 @@ Building applied ML systems — computer vision deployment and LLM/RAG pipelines
 
 | Project | What it does | Stack | Status |
 |---|---|---|---|
-| [EdgeLens](https://github.com/PuneetVerma04/EdgeLens) | Industrial defect classification microservice | PyTorch, ResNet50, FastAPI, MongoDB, Docker | in progress (ONNX INT8 + browser inference) |
+| [EdgeLens](https://github.com/PuneetVerma04/EdgeLens) | Steel surface defect detection, six classes | YOLO, ONNX, onnxruntime-web, FastAPI | [live demo](https://puneetverma04.github.io/EdgeLens/web-demo/) |
 | [RAG-Based-PDF-Insight-Generator](https://github.com/PuneetVerma04/RAG-Based-PDF-Insight-Generator) | Fully offline RAG for PDF Q&A and summarisation | Ollama, LangGraph, Qdrant | in progress (agentic upgrade + eval suite) |
 | [Aphelion-Backend](https://github.com/PuneetVerma04/Aphelion-Backend) | REST API for a game storefront | .NET 9, EF Core, SQL Server, JWT | in progress |
 | [Aphelion-Frontend](https://github.com/PuneetVerma04/Aphelion-Frontend) | Angular storefront client for Aphelion | Angular, Angular Material, RxJS | in progress |
@@ -14,7 +14,7 @@ Building applied ML systems — computer vision deployment and LLM/RAG pipelines
 
 ## Currently working on
 
-- Quantising EdgeLens to ONNX INT8 and moving inference into the browser
+- Wiring the NEU-DET detector into the FastAPI serving layer
 - Upgrading the RAG project into an agentic document analyst with an evaluation suite
 
 ## Stack
